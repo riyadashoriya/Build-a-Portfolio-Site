@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio</title>
+	<script src="bootstrap/js/jquery.min.js"></script>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet'>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- Header has logo, name and title -->
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<img class="title-logo img-responsive" src="images/logo.png" alt="logo" >
+				</div>
+				<div class="col-md-3"></div>
+				<div class="col-md-6 text-uppercase text-right">
+					<h1 class="title-super text-thin">Riya Dashoriya</h1>
+					<h3>Full Stack Web Developer</h3>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Header ends -->
+	<!-- Main starts -->
+	<main>
+		<section>
+			<div class="container">
+				<!-- div for horizontal line -->
+				<div class="row">
+					<div class="col-md-12">
+						<hr>
+					</div>
+				</div>
+				<!-- div for "Project Works" heading -->
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="text-muted">Project Works</h2>
+					</div>
+				</div>
+				<!-- div for two projects in a row -->
+				<div class="row text-center">
+					<div class="col-md-6">
+						<img class="img-responsive" src="images/one.png" alt="Movie Trailer Website" data-toggle="modal" data-target="#project1">
+						<h3 class="text-uppercase">Movie Trailer Website</h3>
+						<p>https://github.com/riyadashoriya/Movie_Trailer_Website</p>
+					</div>
+					<div class="col-md-6">
+						<img class="img-responsive" src="images/product.png" alt="Multi-User Blog"  data-toggle="modal" data-target="#project2">
+						<h3 class="text-uppercase">Multi-User Blog</h3>
+						<p>Link coming soon...</p>
+					</div>
+				</div>
+				<!-- div for two projects in a row -->
+				<div class="row">
+					<div class="col-md-12">
+						<br>
+					</div>
+				</div>
+				<div class="row text-center">
+					<div class="col-md-6">
+						<img class="img-responsive" src="images/product.png" alt="Tournament Results"  data-toggle="modal" data-target="#project3">
+						<h3 class="text-uppercase">Tournament Results</h3>
+						<p>Link coming soon...</p>
+					</div>
+					<div class="col-md-6">
+						<img class="img-responsive" src="images/product.png" alt="Itel Catalog"  data-toggle="modal" data-target="#project4">
+						<h3 class="text-uppercase">Item Catalog</h3>
+						<p>Link coming soon...</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<!-- end of main -->
+	<!-- start of footer which shows copyright information -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<small>Copyright 2016. This work is done for Udacity's Nanodegree Program</small>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- end of footer -->
+	<!-- 4 modal windows description. Each for each project. It shows an image and description of project. -->
+	<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_p1" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel_p1">Movie Trailer Website</h4>
+				</div>
+				<div class="modal-body">
+					<img class="img-responsive" src="images/one.png" alt="Movie Trailer Website">
+					<p>This is a server-side code to store a list of favorite movies, including box art imagery and a movie trailer URL. The data is then served as a web page allowing visitors to review the movies and watch the trailers.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_p2" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel_p2">Multi-User Blog</h4>
+				</div>
+				<div class="modal-body">
+					<img class="img-responsive" src="images/product.png" alt="Multi-User Blog">
+					<p>This is a multi user blog(along the lines of Medium) where users can sign in and post blog posts as well as 'Like' and 'Comment' on other posts made on the blog. This blog is hosted on Google App Engine and an  authentication system is created for the users to be able to register and sign in and then create blog posts!</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_p3" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel_p3">Tournament Results</h4>
+				</div>
+				<div class="modal-body">
+					<img class="img-responsive" src="images/product.png" alt="Tournament Results">
+					<p>A database schema is developed to store the game matches between players. Data is queried to determine the winners of various games.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_p4" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel_p4">Item Catalog</h4>
+				</div>
+				<div class="modal-body">
+					<img class="img-responsive" src="images/product.png" alt="Item Catalog">
+					<p>An application that provides a list of items within a variety of categories as well as provide a user registration and authentication system. Registered users will have the ability to post, edit and delete their own items.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
