@@ -1,5 +1,6 @@
 # Build-a-Portfolio-Site
-A responsive website that display images, descriptions and links to each of the portfolio projects done as a part of Udacity's Full Stack Web Developer Nanodegree.
+A responsive website that display images, descriptions and links to each of the portfolio projects done as a part of Udacity's Full Stack Web Developer Nanodegree. Portfolio is published using gh-pages at https://riyadashoriya.github.io/Build-a-Portfolio-Site/
+
 
 
 ![alt text](https://github.com/riyadashoriya/Build-a-Portfolio-Site/blob/master/gitphoto.png "Website Preview")
